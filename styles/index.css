@@ -1,0 +1,65 @@
+body {
+    background-color: #fff5f5;
+}
+
+::selection {
+    background-color: #3e3e3e;
+    color: #fff;
+}
+
+.container {
+    margin: 40px;
+}
+
+pre {
+    font-weight: 1000;
+    font-size: 10px;
+    font-family: monospace;
+    text-align: left;
+}
+
+.special_text, .special_text a {
+    font-weight: 600;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.special_text a {
+    color: inherit;
+}
+
+.special_text a:hover, .special_text:hover {
+    color: #4fad03;
+}
+
+#intro_title {
+    font-family: EB Garamond, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: clamp(60px, 2vw, 80px);
+    color: #3e3e3e;
+    margin: 0 0 12px;
+}
+
+#title_description {
+    font-family: EB Garamond, sans-serif;
+    font-style: italic;
+    font-size: clamp(35px, 2vw, 50px);
+    color: #3e3e3e;
+    margin: 0 0 12px;
+}
+
+#fish, #fish a {
+    font-family: 'EB Garamond', sans-serif;
+    font-style: italic;
+    color: #3e3e3e;
+    cursor: help;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#fish:hover, #fish a:hover {
+    color: #4fad03;
+}
+
